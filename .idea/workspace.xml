@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3c48c9f-3ce1-44b2-b075-b1db1fbb7e36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/view/GUI.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/view/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/properties/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/properties/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/controllers/Controller3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/controllers/Controller3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/controllers/ImageController3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/controllers/ImageController3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/model/Drawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/model/Drawer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/view/Main3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/view/Main3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/view/MonitoringWindow3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/view/MonitoringWindow3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/app/services/builder/ModelBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/app/services/builder/ModelBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/app/services/device/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/app/services/device/Device.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/app/services/device/SerialPortReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/app/services/device/SerialPortReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/app/utils/DeviceBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/app/utils/DeviceBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/app/utils/os/WindowsOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/app/utils/os/WindowsOS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/app/services/builder/ModelBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/app/services/builder/ModelBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/app/services/device/Device.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/app/services/device/Device.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/app/services/device/SerialPortConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/app/services/device/SerialPortConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/app/services/device/SerialPortReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/app/services/device/SerialPortReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/app/utils/DeviceBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/app/utils/DeviceBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/app/utils/os/WindowsOS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/app/utils/os/WindowsOS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/view/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/view/GUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,10 +264,10 @@
       <recent name="F:\MyProjects\Java\deviceEITSOFT\target\classes\scenes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GUI (2)">
-    <configuration name="GUI (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.GUI (1)">
+    <configuration name="GUI (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.app.form.monitoring3D.view.GUI" />
-      <module name="eitsoft3d_GUI" />
+      <module name="deviceEITSOFT" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -298,10 +279,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GUI (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="GUI (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.app.form.monitoring3D.view.GUI" />
-      <module name="eitsoft3d_GUI" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="deviceEITSOFT" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.app.form.monitoring3D.view.*" />
@@ -342,8 +322,7 @@
     </configuration>
     <configuration name="Main3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.app.form.monitoring3D.view.Main3D" />
-      <module name="eitsoft3d_GUI" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="deviceEITSOFT" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.app.form.monitoring3D.view.*" />
@@ -368,6 +347,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
@@ -379,19 +369,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.GUI (1)" />
       <item itemvalue="Application.GUI (2)" />
       <item itemvalue="Application.Main3D" />
       <item itemvalue="Application.GUI (5)" />
       <item itemvalue="Application.GUI" />
-      <item itemvalue="Application.GUI (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GUI (1)" />
         <item itemvalue="Application.GUI (2)" />
-        <item itemvalue="Application.GUI" />
         <item itemvalue="Application.Main3D" />
+        <item itemvalue="Application.GUI" />
         <item itemvalue="Application.GUI (5)" />
-        <item itemvalue="Application.GUI (4)" />
       </list>
     </recent_temporary>
   </component>
