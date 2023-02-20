@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="deviceEITSOFT">
+    <output-path>$USER_HOME$/Desktop/eit3d</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="ru.app.form.monitoring3D.view.Main3D" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="deviceEITSOFT.jar">
+        <element id="module-output" name="deviceEITSOFT" />
+      </element>
+    </root>
+  </artifact>
+</component>

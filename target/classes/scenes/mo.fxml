@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane fx:id="mainAnchorPane" prefHeight="811.0" prefWidth="959.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.app.form.monitoring.controller.MonitoringMainController">
+   <children>
+      <StackPane layoutY="45.0" prefHeight="200.0" prefWidth="225.0" AnchorPane.leftAnchor="0.0">
+         <children>
+            <Group fx:id="groupPolygons" />
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </StackPane>
+      <ToolBar prefHeight="40.0" prefWidth="200.0">
+         <items>
+            <Button mnemonicParsing="false" onAction="#startDrawing" text="START" />
+            <Button mnemonicParsing="false" onAction="#stopDrawing" text="STOP" />
+         </items>
+      </ToolBar>
+      <StackPane layoutX="367.0" layoutY="45.0" prefHeight="200.0" prefWidth="225.0" AnchorPane.leftAnchor="367.0" AnchorPane.rightAnchor="367.0">
+         <children>
+            <Group fx:id="groupPolygons1" />
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </StackPane>
+      <StackPane layoutX="567.0" layoutY="45.0" prefHeight="200.0" prefWidth="225.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Group fx:id="groupPolygons2" />
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </StackPane>
+      <StackPane layoutX="734.0" layoutY="306.0" prefHeight="200.0" prefWidth="225.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Group fx:id="groupPolygons21" />
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </StackPane>
+      <StackPane layoutY="306.0" prefHeight="200.0" prefWidth="225.0" AnchorPane.leftAnchor="0.0">
+         <children>
+            <Group fx:id="groupPolygons11" />
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </StackPane>
+      <StackPane layoutX="367.0" layoutY="306.0" prefHeight="200.0" prefWidth="225.0" AnchorPane.leftAnchor="367.0" AnchorPane.rightAnchor="367.0">
+         <children>
+            <Group fx:id="groupPolygons3" />
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </StackPane>
+      <StackPane layoutY="605.0" prefHeight="200.0" prefWidth="225.0" AnchorPane.leftAnchor="0.0">
+         <children>
+            <Group fx:id="groupPolygons31" />
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </StackPane>
+      <StackPane layoutX="734.0" layoutY="605.0" prefHeight="200.0" prefWidth="225.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Group fx:id="groupPolygons111" />
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </StackPane>
+      <StackPane layoutX="367.0" layoutY="605.0" prefHeight="200.0" prefWidth="225.0" AnchorPane.leftAnchor="367.0" AnchorPane.rightAnchor="367.0">
+         <children>
+            <Group fx:id="groupPolygons211" />
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </StackPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>no comment</comment>
+<entry key="fill_chart">#fbc02dff</entry>
+<entry key="stroke_chart">#212121ff</entry>
+</properties>

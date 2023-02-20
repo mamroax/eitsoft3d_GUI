@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>no comment</comment>
+<entry key="model_type">thorax</entry>
+<entry key="model_path">models/f2t2.json</entry>
+<entry key="id_product">374b</entry>
+<entry key="device_number">6&amp;19C2CE46&amp;2&amp;0002</entry>
+<entry key="model_increasing_value">1</entry>
+<entry key="frequency_current">200</entry>
+<entry key="colormap_model_path">colormaps/draeger-2009.json</entry>
+<entry key="id_vendor">0483</entry>
+<entry key="amplitude_current">1.0</entry>
+</properties>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>no comment</comment>
+    <entry key="update_model_params">Настройки будут применены после обновления модели на панели инструментов</entry>
+    <entry key="selected_model">Данная модель уже выбрана</entry>
+    <entry key="selected_colormap">Данная цветовая карта уже выбрана</entry>
+
+    <!-- Noutification bar's strings -->
+    <entry key="error_update_model">Ошибка обновления</entry>
+    <entry key="not_found_new_params">Новых параметров не обнаружено</entry>
+
+    <!-- Windows' title -->
+    <entry key="monitoring_window_title">Мониторинг</entry>
+    <entry key="settings_window_title">Настройки</entry>
+
+    <!-- Settings' errors -->
+    <entry key="error_parse_entered_value">Введенное значение не является числом. Данные не будут сохранены!</entry>
+    <entry key="not_applying_range_entered_value">Введенное значение не входит в диазон допустимых значений. Данные не будут сохранены!</entry>
+
+    <!-- Test's strings -->
+    <entry key="test_is_success">Test is success</entry>
+
+    <!-- Strings for detect port -->
+    <entry key="key_path">SYSTEM\\CurrentControlSet\\Enum\\USB\\VID_key_vendor&amp;PID_key_product&amp;MI_02\\</entry>
+
+</properties>

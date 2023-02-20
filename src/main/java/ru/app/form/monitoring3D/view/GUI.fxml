@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.TextFlow?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #999;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.app.form.monitoring3D.view.GUI">
+   <children>
+      <AnchorPane layoutX="-12.0" layoutY="-11.0" prefHeight="337.0" prefWidth="822.0">
+         <children>
+            <TextFlow layoutX="30.0" layoutY="26.0" prefHeight="67.0" prefWidth="200.0" style="-fx-background-color: #777;" />
+            <TextFlow layoutX="311.0" layoutY="26.0" prefHeight="67.0" prefWidth="200.0" style="-fx-background-color: #777;" />
+            <TextFlow layoutX="30.0" layoutY="106.0" prefHeight="67.0" prefWidth="200.0" style="-fx-background-color: #777;" />
+            <TextFlow layoutX="311.0" layoutY="106.0" prefHeight="67.0" prefWidth="200.0" style="-fx-background-color: #777;" />
+            <TextFlow layoutX="608.0" layoutY="26.0" prefHeight="67.0" prefWidth="200.0" style="-fx-background-color: #777;" />
+            <TextFlow layoutX="608.0" layoutY="106.0" prefHeight="67.0" prefWidth="200.0" style="-fx-background-color: #777;" />
+            <TextFlow layoutX="30.0" layoutY="184.0" prefHeight="67.0" prefWidth="200.0" style="-fx-background-color: #777;" />
+            <TextFlow layoutX="311.0" layoutY="184.0" prefHeight="67.0" prefWidth="200.0" style="-fx-background-color: #777;" />
+            <TextFlow layoutX="608.0" layoutY="184.0" prefHeight="67.0" prefWidth="200.0" style="-fx-background-color: #777;" />
+            <TextFlow layoutX="30.0" layoutY="263.0" prefHeight="67.0" prefWidth="200.0" style="-fx-background-color: #777;" />
+            <TextFlow layoutX="309.0" layoutY="265.0" prefHeight="67.0" prefWidth="200.0" style="-fx-background-color: #777;" />
+            <TextFlow layoutX="608.0" layoutY="263.0" prefHeight="67.0" prefWidth="200.0" style="-fx-background-color: #777;" />
+         </children>
+      </AnchorPane>
+    <Button layoutX="339.0" layoutY="348.0" mnemonicParsing="false" text="Рассчитать модель" />
+   </children>
+</AnchorPane>
