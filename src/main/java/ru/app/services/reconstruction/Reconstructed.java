@@ -5,5 +5,5 @@ import java.util.List;
 public interface Reconstructed {
     
     List<Double> reconstructionColormap(double[] reconstructionVector, List<Double> colormapValue);
-    double[] reconstructionModel(List<Double> currentMeas, double[][] reconstructionMatrix);
+    double[] reconstructionModel(List<Double> currentMeas, double[][] reconstructionMatrix); // Возвращает массив типа double
 }

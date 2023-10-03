@@ -14,7 +14,7 @@ public class MonitoringWindow3D {
     private final int MAX_NUMBER_OF_BELTS = 100;
     private final int DISTANCE_BETWEEN_SECTIONS = 0;
 
-    private static final double CAMERA_INITIAL_DISTANCE = -1000;
+    private static final double CAMERA_INITIAL_DISTANCE = -2000;
     private static final double CAMERA_INITIAL_X_ANGLE = 70.0;
     private static final double CAMERA_INITIAL_Y_ANGLE = 0;
     private static final double CAMERA_NEAR_CLIP = 0.1;
@@ -44,7 +44,7 @@ public class MonitoringWindow3D {
     }
 
     private void addGroupsInPane() {
-        for (int i = 0; i < MAX_NUMBER_OF_BELTS; i++) {
+        for (int i = 0; i <     MAX_NUMBER_OF_BELTS; i++) {
             Group group = new Group();
             group.setTranslateZ((TrianglePrism.STANDART_HEIGHT + DISTANCE_BETWEEN_SECTIONS) * i);
             root.getChildren().add(group);

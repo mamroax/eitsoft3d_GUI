@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3c48c9f-3ce1-44b2-b075-b1db1fbb7e36" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/learning/MainFXMLChanging.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/model/DrawerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/model/DrawerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/shapes/TrianglePrism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/shapes/TrianglePrism.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/view/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/view/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/view/Main3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/view/Main3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/view/MonitoringWindow3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/app/form/monitoring3D/view/MonitoringWindow3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/app/services/builder/ModelBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/app/services/builder/ModelBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/app/services/reconstruction/MeasurementHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/app/services/reconstruction/MeasurementHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/app/services/reconstruction/Reconstructed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/app/services/reconstruction/Reconstructed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/app/form/monitoring3D/model/DrawerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/app/form/monitoring3D/model/DrawerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/app/form/monitoring3D/view/GUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/app/form/monitoring3D/view/GUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/app/form/monitoring3D/view/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/app/form/monitoring3D/view/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/app/form/monitoring3D/view/Main3D.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/app/form/monitoring3D/view/Main3D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/app/form/monitoring3D/view/MonitoringWindow3D.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/app/form/monitoring3D/view/MonitoringWindow3D.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +258,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lefru/Desktop/eitsoft3d_GUI&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lefru/Desktop/eitsoft3d_GUI/eitsoft3d_GUI&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -264,7 +281,7 @@
       <recent name="F:\MyProjects\Java\deviceEITSOFT\target\classes\scenes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GUI (1)">
+  <component name="RunManager" selected="Application.GUI (3)">
     <configuration name="GUI (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.app.form.monitoring3D.view.GUI" />
       <module name="deviceEITSOFT" />
@@ -279,22 +296,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GUI (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="GUI (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.app.form.monitoring3D.view.GUI" />
       <module name="deviceEITSOFT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.app.form.monitoring3D.view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GUI (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.app.form.monitoring3D.view.GUI" />
-      <module name="eitsoft3d_GUI" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -308,8 +312,22 @@
     </configuration>
     <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.app.form.monitoring3D.view.GUI" />
-      <module name="eitsoft3d_GUI" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="deviceEITSOFT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.app.form.monitoring3D.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.app.form.monitoring3D.view.GUI" />
+      <module name="deviceEITSOFT" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.app.form.monitoring3D.view.*" />
@@ -326,6 +344,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.app.form.monitoring3D.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainFXMLChanging" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.app.form.monitoring3D.learning.MainFXMLChanging" />
+      <module name="deviceEITSOFT" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.app.form.monitoring3D.learning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -370,18 +402,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.GUI (1)" />
-      <item itemvalue="Application.GUI (2)" />
-      <item itemvalue="Application.Main3D" />
-      <item itemvalue="Application.GUI (5)" />
+      <item itemvalue="Application.GUI (3)" />
       <item itemvalue="Application.GUI" />
+      <item itemvalue="Application.Main3D" />
+      <item itemvalue="Application.MainFXMLChanging" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GUI (1)" />
-        <item itemvalue="Application.GUI (2)" />
-        <item itemvalue="Application.Main3D" />
+        <item itemvalue="Application.GUI (3)" />
+        <item itemvalue="Application.MainFXMLChanging" />
         <item itemvalue="Application.GUI" />
-        <item itemvalue="Application.GUI (5)" />
+        <item itemvalue="Application.GUI" />
+        <item itemvalue="Application.Main3D" />
       </list>
     </recent_temporary>
   </component>

@@ -17,7 +17,7 @@ import javafx.scene.control.Label;
 import java.awt.*;
 import ru.app.utils.DeviceBuilder;
 
-public class GUI extends Application{
+public class GUI extends Application{ // Что такое application?
 
     public static void main(String[] args) {
 
@@ -145,10 +145,9 @@ public class GUI extends Application{
 
             @Override
             public void handle(ActionEvent event) {
-                Main3D kek = new Main3D();
-                Stage stage1 = new Stage();
-                kek.start(stage1);
-                stage1.setTitle(root.getAccessibleText());
+                Main3D scene = new Main3D();
+                scene.kek();
+                stage.hide();
             }
         });
 

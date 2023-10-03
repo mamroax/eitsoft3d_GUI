@@ -15,11 +15,11 @@ public class MeasurementHandler {
     public List<double[]> values = new ArrayList<>();
     private Double maxValue;
 
-    DoubleMatrix1D multiplyMatrix(List<Double> vector, double[][] recMatrix) {
+    DoubleMatrix1D multiplyMatrix(List<Double> vector, double[][] recMatrix) { // судя по названию - это перемножение матриц
         DoubleMatrix2D matrixRec = new DenseDoubleMatrix2D(recMatrix);
         DoubleMatrix1D matrixVector = new DenseDoubleMatrix1D(getPrimitiveVector(vector));
 
-        return new Algebra().mult(new Algebra().transpose(matrixRec), matrixVector);
+        return new Algebra().mult(new Algebra().transpose(matrixRec), matrixVector); // Нужно разобраться в этой строке
     }
 
     private double[] getPrimitiveVector(List<Double> vector) {

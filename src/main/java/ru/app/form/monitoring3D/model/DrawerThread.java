@@ -16,10 +16,10 @@ public class DrawerThread extends Thread {
     private Reconstructed reconstructed;
 
     private ModelBuilding modelBuilding;
+
     private ImageController3D imageController;
 
     private List<Double> dataList;
-
 
     public DrawerThread(Controller3D controller3D, int indexImage) {
         reconstructed = ServicesFactory.getReconstruction();
@@ -30,7 +30,6 @@ public class DrawerThread extends Thread {
     @Override
     public void run() {
         super.run();
-
         List<Double> data = decreaseValues(dataList);
         updateImage(getColorsPaint(data));
         waitDrawingImageAndChart();

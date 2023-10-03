@@ -20,7 +20,7 @@ public class ModelBuilder implements ModelBuilding {
 
     /**
      * @param typeIncreasing - Model.TORSO_MODEL or Model.CIRCLE_MODEL
-     */
+     */ 
     @Override
     public void buildModel(String colorMapPath, String modelPath, double typeIncreasing)  {
         setModel(new JsonParser(modelPath).parseJsonModel());
@@ -39,7 +39,7 @@ public class ModelBuilder implements ModelBuilding {
             }
         }
 
-
+    
         return triangleCoordinate;
     }
 

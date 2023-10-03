@@ -3,8 +3,8 @@ package ru.app.form.monitoring3D.shapes;
 import javafx.geometry.Point3D;
 import javafx.scene.shape.TriangleMesh;
 
-public class TrianglePrism {
-    public final static int STANDART_HEIGHT = 30;
+public class TrianglePrism { // треугольная призма для чего?
+    public final static int STANDART_HEIGHT = 30; // final означает, что наследовать от этого класса ничего нельзя
     public static TriangleMesh createTriangularPrism(Point3D firstVertex, Point3D secondVertex, Point3D thirdVertex, float heightPrism) {
         TriangleMesh meshTriangularPrism = new TriangleMesh();
         meshTriangularPrism.getTexCoords().addAll(0, 0);
